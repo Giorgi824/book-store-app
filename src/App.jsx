@@ -20,7 +20,7 @@ function App() {
     AOS.refresh();
   }, []);
 
-  const [orderPopup, setOrderPopup] = useState(true);
+  const [orderPopup, setOrderPopup] = useState(false);
   function handleOrderPopup() {
     setOrderPopup((prev) => !prev);
   }
